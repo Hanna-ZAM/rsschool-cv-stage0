@@ -1,7 +1,7 @@
 # **Hanna Zalatarevich**
 
-![ ](avatar.jpg)
-
+ <img src="avatar.jpg" width="200" height="">
+ 
 ## **Contact**
 + **Phone:** +375295682325
 + **Email:** a.zoloto@mail.ru
