@@ -1,6 +1,6 @@
 # **Hanna Zalatarevich**
 
-![](C:\Users\azolo\Documents\RSS)
+![ ](C:\Users\azolo\rsschool-cv\rsschool-cv\avatar.jpg)
 
 ## **Contact**
 + **Phone:** +375295682325
