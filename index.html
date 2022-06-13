@@ -5,21 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Junior front-end developer</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.google.com/specimen/Inter?query=inter" rel="stylesheet">
 </head>
 
-<body>
+<body class="body">
+  <head class="body-head">
+    navigation
+  </head>
   <main>
-    <div>
+    <div class="left-colomn">
         <!-- start left green column-->
-        <img
-              src="/assets/avatar-frame.jpg"
-              alt="Avatar"
+        <img class="avatar"
+              src="assets/avatar-frame.jpg"  alt="Avatar" width="250" 
             />
-        <h1>Hanna Zalatarevich</h1>
+        <h1 class="h1">Hanna Zalatarevich</h1>
         <p>Junior Frontend Developer</p>
 
         <aside>
-          <h2>Contact</h2>
+          <h2 class="h2">Contact</h2>
           <ul>
             <li>Phone: +375295682325</li>
             <li>Email: a.zoloto@mail.ru</li>
@@ -28,7 +32,7 @@
             <li>Behance</li>
           </ul>
 
-          <h2>Skils</h2>
+          <h2 class="h2">Skils</h2>
           <ul>
             <li>HTML5, CSS</li>
             <li>Java Script Basic</li>
@@ -38,12 +42,65 @@
             <li>Tilda</li>
             <li>Adobe Photoshop, Aftereffects</li>
           </ul>
-        </aside>
+        </aside class="aside">
         <!-- finish left green column-->
-          
-        <p
+    </div>
+    <!-- start main white column-->
+    <div class="right-colomn">
+      <section>
+        <h2 class="h2">About Myself</h2>
+        <p>My career started when I was only 19. I always seek to develop my skills. But now I realized that my career as engineer of metrology has reached the limit (after 15 years successful work). I’m working on my career as Front-end developer now.</p>
+        
+        <h2 class="h2">Education and Courses</h2>
+        <ul>
+          <li>Belorusian State Energy University
+            <ul>
+              <li>Termal power plants</li>
+            </ul>
+          </li>
+          <li>Minsk State Energy College
+            <ul>
+              <li>Thermal power engineering</li>
+            </ul>
+          </li>
+          <li>Yudaev School
+            <ul>
+              <li>Web-design with wow-effect</li>
+            </ul>
+          </li>
+          <li>RSSchool
+            <ul>
+              <li>JS/FE Pre-School 2022Q2 (in progress)</li>
+            </ul>
+          </li>
+        </ul>
+        <h2 class="h2">Code Example</h2>
+        <pre>Let myCode = ’’I don’t have good deal of experience in writing code’’;
+          Alert (myCode);</pre>
+
+          <h2 class="h2">Experience</h2>
+          <ul>
+            <li>Belorusian State Institute of metrology (since 2006)
+              <ul>
+                <li>Senior engineer of metrology</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h2 class="h2">Languages</h2>
+          <ul>
+            <li>Russian (native)</li>
+            <li>Belorussian (native)</li>
+            <li>English (A2)</li>
+          </ul>
+      </section>
+      <!-- finish main white column-->
     </div>
   </main> 
+
+  <footer class="footer">
+"футер будет здесь"
+  </footer>
     
 </body>
 </html>
