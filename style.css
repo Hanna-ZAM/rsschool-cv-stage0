@@ -25,7 +25,9 @@ html {
 }
 
 .body-head {
+   //* height: 80px;*//
     margin: 0; padding: 0;
+    background-color: rgba(79, 122, 106, 0.85);
     color: #ffffff;
 }
 
@@ -72,7 +74,7 @@ html {
 }
 
 .avatar {
-  //* margin-block-start: 30px;*//
+    margin-block-start: 30px;
     width: 50%;
     margin-left: 25%;
    }
@@ -105,7 +107,7 @@ html {
 }
 
 .nav {
-    background-color: rgba(79, 122, 106, 0.85); 
+    //*background-color: rgba(79, 122, 106, 0.85); *//
 }
 .nav-list {
     display: flex;
