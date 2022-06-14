@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.body {
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(79, 122, 106, 0.1);
+    margin: auto; padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000000;
+
+    min-height: 100vh;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.body-head {
+   //* height: 80px;*//
+    margin: 0; padding: 0;
+    background-color: rgba(79, 122, 106, 0.85);
+    color: #ffffff;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-colomn {
+    border: none;
+    padding-bottom: 30px;
+    background-color: rgba(79, 122, 106, 0.7);
+    width: 30%;
+    color: #ffffff;;
+}
+
+.right-colomn {
+    margin-block-start: 0px;
+    border: none;
+    width: 65%; 
+}
+
+.footer {
+    border: none;
+    margin: 0; padding: 0;
+    background-color: rgba(79, 122, 106, 0.85);
+}
+
+.footer-list {
+    display: flex;
+    justify-content:center;
+    align-items: right;
+    list-style: none;
+}
+
+.footer-link {
+    color: #ffffff;
+    padding: 0 100px;
+    line-height: 20px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.avatar {
+    margin-block-start: 30px;
+    width: 50%;
+    margin-left: 25%;
+   }
+
+.h1 {
+    font-size: 32px;
+    line-height: 0.0;
+    text-align: center;
+}
+
+.h2 {
+    margin-left: 5%;
+    font-size: 24px;
+}
+
+.profession {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text {
+    margin-left: 5%;
+}
+
+.code {
+    margin-left: 5%;
+    width: fit-content;
+    padding: 5px;
+    background-color: #EBEBEB;
+}
+
+.nav {
+    //*background-color: rgba(79, 122, 106, 0.85); *//
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    list-style: none;
+}
+
+.nav-link {
+    color: #ffffff;
+    padding: 0 56px;
+    line-height: 20px;
+    transition: .3s;
+    text-decoration: none; 
+}
+.list-white {
+    margin-left: 3%;
+}
+
+.link {
+    color: #ffffff;
+    padding: 0 0px;
+    transition: .3s;
+    text-decoration: none; 
+}
+.link-project{
+    color: #000000;
+    padding: 0 0px;
+    margin-left: 5%;
+    margin-bottom:  24px; ;
+    transition: .3s;
+    text-decoration: none;
+    line-height: 0.5;
+}
+
+ a:hover {
+    text-decoration: underline;
+ }
